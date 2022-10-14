@@ -9,15 +9,21 @@
     <title>Pari e Dispari</title>
 </head>
 <body>
-    <div class="my-container">
-        
-        <input type="text" id="word">
-        <input type="button"  id="btn" value="Palindroma?">
-        <div id="result"></div>
-        <input type="text" id="odd-even">
-        <input type="number" id="user-number">
-        <input type="button"  id="btn-2" value="Play!">
-        <div id="result-2"></div>
+    <div class="wrapper">
+
+        <div class="box">
+            <h2>Inserisci una parola</h2>
+            <input type="text" id="word">
+            <input type="button"  id="btn" value="Palindroma?" class="btn btn-dark p-2 fs-5">
+            <div id="result"></div>
+            <h2 class="my-3">Gioca contro il PC</h2>
+            <h3 class="text-dark">Scegli Pari o Dispari &nbsp; Scegli un numero da 0 a 5</h3>
+            <input type="text" id="odd-even">
+            <input type="number" id="user-number">
+            <br>
+            <input type="button"  id="btn-2" value="Play!" class="btn btn-dark p-2 fs-5 my-3">
+            <div id="result-2"></div>
+        </div>
     </div>
 
     <script src="js/script.js"></script>
